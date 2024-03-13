@@ -1,6 +1,38 @@
+body {
+    background-color: #FFBE98;
+}
+
 h1 {
-    background-color: chocolate;
-    color: white;
-    width:fit-content;
+    background-color: #E2BFB3;
+    color: #FEECE2;
+    width: fit-content;
     padding: 10px;
+}
+
+p {
+    background-color: #E2BFB3;
+    padding: 10px;
+    font-size: 12pt;
+    font-family: comic sans ms;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    background-color: #F7DED0;
+    font-family: comic sans ms;
+}
+
+li:hover {
+    background-color: #FEECE2;
+}
+
+h2 {
+    color: blue;
+    font-size: 18pt;
+    background-color: yellow;
+    margin-left: 500px;
+    padding: 50px;
+    width: 300px;
+    text-align: center;
 }
