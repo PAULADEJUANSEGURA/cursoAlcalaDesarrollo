@@ -36,3 +36,9 @@ h2 {
     width: 300px;
     text-align: center;
 }
+
+
+.lorem-ipsum { font-size: 20pt;
+    background-color: #51829B;
+    color: #EADFB4;
+}

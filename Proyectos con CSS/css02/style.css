@@ -1,6 +1,217 @@
-h1 {
-    background-color: rgb(57, 30, 210);
-    color: white;
-    width:fit-content;
-    padding: 10px;
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template: 1fr / 5% 1fr 5%;
+    grid-template-areas: "prev carousel next";
+    justify-items: center;
+    align-items: center;
+    margin-top: 25vh;
+}
+.prev {
+    grid-area: prev; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;                
+}
+.next {
+    grid-area: next; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;                   
+}
+.carousel {
+    grid-area: carousel;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 5px);
+    height: auto;   
+    position: relative;
+}
+.tarjeta {
+    border: solid 5px #E2BFB3;
+    width: 100px;   
+    height: 100px;
+    position: absolute;
+}
+.tarjeta img{
+    width: 100px;
+    height: 100px;
+}
+.boton {
+    position: relative;
+    margin-top: 15%;
+    text-align: center;
+}
+button:focus {
+    outline: none;
+}
+.a{ 
+    left: 0; 
+    z-index: 0;
+}
+.b{ 
+    transform: scale(1.5, 1.5);             
+    left: calc(25% - 50px);
+    z-index: 1;
+}
+.c{ 
+    transform: scale(2, 2); 
+    left: calc(50% - 50px);
+    z-index: 2;
+}
+.d{ 
+    transform: scale(1.5, 1.5); 
+    right: calc(25% - 50px);
+    z-index: 1;
+}
+.e{ 
+    right: 0; 
+    z-index: 0;
+}  
+
+@media screen and (max-width: 420px){ 
+    .container {
+        grid-template: 1fr 1fr / 1fr 1fr;
+        grid-template-areas: "carousel carousel"
+                             "prev next";
+    }
+    .next, .prev {
+        margin-top: 70px;
+    }
+}
+
+@keyframes BtoA {
+    from{
+        left: calc(25% - 50px);
+        transform: scale(1.5, 1.5);
+        z-index: 1;                
+    }
+    to{
+        left: 0;
+        transform: scale(1, 1); 
+        z-index: 0;                               
+    }
+}
+
+@keyframes AtoB {
+    from{
+        left: 0;
+        transform: scale(1, 1); 
+        z-index: 0;                
+    }
+    to{
+        left: calc(25% - 50px);
+        transform: scale(1.5, 1.5);
+        z-index: 1;                              
+    }
+}
+
+@keyframes CtoB {
+    from{
+        left: calc(50% - 50px);
+        transform: scale(2, 2);
+        z-index: 2;                
+    }
+    to{
+        left: calc(25% - 50px);
+        transform: scale(1.5, 1.5); 
+        z-index: 1;                               
+    }
+}
+
+@keyframes BtoC {
+    from{
+        left: calc(25% - 50px);
+        transform: scale(1.5, 1.5); 
+        z-index: 1;                 
+    }
+    to{
+        left: calc(50% - 50px);
+        transform: scale(2, 2);
+        z-index: 2;                                
+    }
+}
+
+@keyframes DtoC {
+    from{
+        left: calc(75% - 50px);
+        transform: scale(1.5, 1.5);
+        z-index: 1;
+        
+    }
+    to{
+        left: calc(50% - 50px);
+        transform: scale(2, 2);
+        z-index: 2;            
+    }
+}   
+
+@keyframes CtoD {
+    from{
+        left: calc(50% - 50px);
+        transform: scale(2, 2);
+        z-index: 2; 
+    }
+    to{
+        left: calc(75% - 50px);
+        transform: scale(1.5, 1.5);
+        z-index: 1;            
+    }
+}  
+
+@keyframes EtoD {
+    from{
+        right: 0;
+        transform: scale(1, 1);
+        z-index: 0;
+    }
+    to{
+        right: calc(25% - 50px);
+        transform: scale(1.5, 1.5);
+        z-index: 1;
+    }
+}   
+
+@keyframes DtoE {
+    from{
+        right: calc(25% - 50px);
+        transform: scale(1.5, 1.5);
+        z-index: 1;
+    }
+    to{
+        right: 0;
+        transform: scale(1, 1);
+        z-index: 0;
+    }
+}   
+
+@keyframes AtoE {
+    from{
+        left: 0;
+        z-index: 0;
+    }
+    to{
+        left: calc(100% - 110px);
+        z-index: 0;      
+    }
+}  
+
+@keyframes EtoA {
+    from{
+        left: calc(100% - 100px);
+        z-index: 0; 
+    }
+    to{
+        left: 0;
+        z-index: 0;    
+    }
 }
