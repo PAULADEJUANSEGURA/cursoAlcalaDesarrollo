@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.estilo1 {
+    font: italic small-caps bold 18pt helvetica;
+
+}
+
+.estilo2 {
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: monospace;
+}
