@@ -1,0 +1,88 @@
+body {
+    background-color: antiquewhite;
+}
+
+div{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: 40px;
+}
+div:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+h1 {
+    color: purple;
+    text-shadow: 15px 20px 4px  rgb(78, 10, 78);
+    text-decoration: underline;
+    line-height: 20px;
+    margin: 50px;
+    padding: 10px;
+}
+
+h1:hover {
+    color: rgb(241, 232, 241);
+    text-shadow: 15px 20px 4px  rgb(153, 140, 153);
+    text-decoration: underline;
+    line-height: 20px;
+    margin: 50px;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: white;
+}
+
+.carne {
+    color: rgb(170, 12, 12);
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(169, 231, 233);
+    width: 380px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pescado {
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(169, 231, 233);
+    width: 380px;
+    color: blue;
+
+}
+
+.verdura {
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 380px;
+    background-color: rgb(169, 231, 233);
+    color: green;
+}
+
+#barato {
+    text-decoration: underline;
+    background-color: orange;
+    width:380px;
+    padding: 10px;
+}
+#barato:hover {
+    background-color: white;
+}
+
+#caro {
+    background-color: yellow;
+    text-decoration: underline;
+    width: 380px;
+    padding: 10px;
+}
+
+#caro:hover {
+    background-color: white;
+}
