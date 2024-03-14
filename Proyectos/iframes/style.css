@@ -1,0 +1,29 @@
+body {
+    background-color: yellow;
+}
+
+table { 
+    width: 1000px;
+    height: 700px;
+}
+
+iframe {
+    width: 700px;
+    height: 600px;
+}
+#bart-foto {
+    width: 150px;
+
+}
+
+#lisa-foto {
+    width: 200px;
+}
+
+#homer-foto {
+    width: 220px;
+}
+
+#marge-foto {
+    width: 200px;
+}
