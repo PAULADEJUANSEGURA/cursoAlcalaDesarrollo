@@ -1,29 +1,12 @@
-.color-yellow {
-    background-color: yellow;
-}
 
-#color-white {
-    background-color: rgb(168, 210, 235);
+#color-backgr {
+    background-image: url("personajes-simpsons.webp");
+    background-size: cover;
 }
 
 #cabecera {
     display: flex;
     justify-content: space-around;
-}
-
-#encabezado {
-    color: yellow;
-    font-size: 50pt;
-    padding: 20px;
-    width: 500px;
-}
-
-#encabezado:hover {
-    color: blue;
-    background-color: white;
-    text-shadow: 5px 5px rgb(189, 155, 155);
-    width: 500px;
-    padding: 20px;
 }
 
 #spotify {
@@ -32,18 +15,24 @@
 
 table {
     width: 1000px;
-    height: 700px;
+    height: 800px;
     background-color: white;
 }
 
+#tablaframe {
+    background-color: yellow;
+}
+
 #simpsons {
-    width: 700px;
+    width: 600px;
     height: 600px;
+    background-image: url("los-simpsons.png");
+    background-size: contain;
+    margin-left: 60px;
 }
 
 #bart-foto {
     width: 150px;
-
 }
 
 #lisa-foto {
@@ -57,3 +46,10 @@ table {
 #marge-foto {
     width: 200px;
 }
+#titulo1 {
+    background-image: url("los-simpsons.png");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    z-index: 1;
+    }
