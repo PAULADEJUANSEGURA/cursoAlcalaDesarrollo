@@ -1,0 +1,103 @@
+body {
+    margin: 0px auto;
+    background-image: url("viajes.jpg");
+    background-size: cover;
+}
+
+
+header {
+    background-color: rgba(195, 237, 223, 0.7);
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    border-top-style: groove;
+    border-top-color: #FFC700;
+    border-top-width: 20px;
+    border-left-style: dotted; 
+    border-left-color: #FFF455;
+    border-left-width: 35px;
+    border-right-width: 25px;
+    border-right-color: #007F73;
+    border-right-style: double;
+    border-bottom-style: ridge;
+    border-bottom-color: red;
+    border-bottom-width: 10px;
+    height: 700px;
+    background-color: rgba(76, 205, 153, 0.5);
+}
+
+li {
+    display: inline-block;
+    margin: 35px;
+    padding: 20px;
+}
+
+#leopardo {
+    background-image: url("leopardo.jpg");
+    height: 180px;
+    background-size: cover;
+    border-radius: 15px 15px;
+    border-top-style: groove;
+    border-top-color: #FFC700;
+    border-top-width: 20px;
+    border-left-style: dotted; 
+    border-left-color: #FFF455;
+    border-left-width: 35px;
+    border-right-width: 25px;
+    border-right-color: #007F73;
+    border-right-style: double;
+    border-bottom-style: ridge;
+    border-bottom-color: red;
+    border-bottom-width: 10px;
+}
+
+#tucan {
+    background-image: url("tucan.jpg");
+    background-size: cover;
+    border-radius: 15px 15px;
+    border-top-style: groove;
+    border-top-color: #FFC700;
+    border-top-width: 20px;
+    border-left-style: dotted; 
+    border-left-color: #FFF455;
+    border-left-width: 35px;
+    border-right-width: 25px;
+    border-right-color: #007F73;
+    border-right-style: double;
+    border-bottom-style: ridge;
+    border-bottom-color: red;
+    border-bottom-width: 10px;
+}
+
+#tortugas {
+    background-image: url("tortugas.jpg");
+    border-radius: 15px 15px;
+    background-size: cover;
+}
+
+.celda {
+    border-top-style: groove;
+    border-top-color: #1f65a7;
+    border-top-width: 20px;
+    border-left-style: dotted; 
+    border-left-color: #e42fc6;
+    border-left-width: 35px;
+    border-right-width: 25px;
+    border-right-color: #c2e73b;
+    border-right-style: double;
+    border-bottom-style: ridge;
+    border-bottom-color: red;
+    border-bottom-width: 10px;
+}
+
+section {
+    margin: 100px;
+}
+
+#footlogo {
+    background-color: rgba(76, 205, 153, 0.5);
+    padding: 25px;
+    color: white;
+}
