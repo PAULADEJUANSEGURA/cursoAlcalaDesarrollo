@@ -1,0 +1,63 @@
+body {
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    margin: 0px auto;
+}
+
+header {
+    background-color: rgb(243, 161, 131);
+    display: flex;
+    margin: 0px auto;
+    height: 200px;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+.enlace-cabecera {
+    background-color: rgb(248, 204, 190);
+    padding: 20px;
+}
+
+.enlace-cabecera:hover {
+    background-color: antiquewhite;
+}
+
+section {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(243, 161, 131, 0.5);
+    padding: 20px;
+    margin: 80px;
+}
+
+h1 {
+    letter-spacing: 9px;
+    text-shadow: 5px 5px wheat;
+    text-align: center;
+    font-size: 40pt;
+    background-color: rgba(175, 230, 211, 0.6);
+}
+
+h2 {
+    letter-spacing: 10px;
+    text-shadow: 5px 5px wheat;
+    text-align: center;
+}
+
+p {
+    word-spacing: 8px;   
+    background-color: rgba(203, 245, 141, 0.5);
+    padding: 10px;
+}
+
+#der {
+    text-align: right;
+}
+
+#indentacion {
+    text-indent: 45px;
+}
