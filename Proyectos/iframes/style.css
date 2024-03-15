@@ -1,10 +1,18 @@
-body {
+.color-yellow {
     background-color: yellow;
+}
+#color-white {
+    background-color: rgb(168, 210, 235);
+}
+#encabezado {
+    color: yellow;
+    text-shadow: 15px 15px grey;
 }
 
 table { 
     width: 1000px;
     height: 700px;
+    background-color: white;
 }
 
 iframe {
