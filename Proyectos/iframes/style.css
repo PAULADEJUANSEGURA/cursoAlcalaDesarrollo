@@ -1,24 +1,46 @@
 .color-yellow {
     background-color: yellow;
 }
+
 #color-white {
     background-color: rgb(168, 210, 235);
 }
-#encabezado {
-    color: yellow;
-    text-shadow: 15px 15px grey;
+
+#cabecera {
+    display: flex;
+    justify-content: space-around;
 }
 
-table { 
+#encabezado {
+    color: yellow;
+    font-size: 50pt;
+    padding: 20px;
+    width: 500px;
+}
+
+#encabezado:hover {
+    color: blue;
+    background-color: white;
+    text-shadow: 5px 5px rgb(189, 155, 155);
+    width: 500px;
+    padding: 20px;
+}
+
+#spotify {
+    margin-top: 25px;
+}
+
+table {
     width: 1000px;
     height: 700px;
     background-color: white;
 }
 
-iframe {
+#simpsons {
     width: 700px;
     height: 600px;
 }
+
 #bart-foto {
     width: 150px;
 

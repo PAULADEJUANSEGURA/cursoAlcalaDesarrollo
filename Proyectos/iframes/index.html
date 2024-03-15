@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,12 +9,21 @@
 </head>
 
 <body id="color-white">
-    <h1 id="encabezado">Los SIMPSONS</h1>
+    <div id="cabecera">
+        <h1 id="encabezado">Los SIMPSONS</h1>
+        <div>
+            <iframe id="spotify" style="border-radius:12px"
+                src="https://open.spotify.com/embed/track/7CD8O3gZ5NB7jkfO5cv0WD?utm_source=generator" width="250"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </div>
+    </div>
     <table border="5">
         <tr>
             <td><a href="bart.html" target="simpsons"><img src="bart-p.gif" id="bart-foto"></a></td>
             <td colspan="2" rowspan="4" class="color-yellow">
-                <iframe src="bart.html" name="simpsons"></iframe>
+                <iframe id="simpsons" src="bart.html" name="simpsons"></iframe>
             </td>
         </tr>
         <tr>
@@ -27,6 +36,12 @@
             <td><a href="marge.html" target="simpsons"><img src="marge-p.jpg" id="marge-foto"></a></td>
         </tr>
     </table>
+    <div>
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/7CD8O3gZ5NB7jkfO5cv0WD?utm_source=generator" width="250"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
 </body>
 
 </html>
