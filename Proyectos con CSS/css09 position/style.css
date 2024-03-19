@@ -1,0 +1,47 @@
+* {box-sizing: border-box;}
+
+.container {
+    width: 1600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header {
+    width: 1600px;
+    height: 250px;
+    background-color: rgb(216, 117, 117);
+}
+
+.menu {
+    width: 1600px;
+    height: 150px;
+    background-color: rgb(238, 192, 77);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+
+aside {
+    width: 200px;
+    height: 900px;
+    background-color: green;
+}
+
+main {
+    width: 1400px;
+    height: 900px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+#flecha-subir {
+    position: fixed;
+    width: 100px;
+    bottom: 25px;
+    right: 10px;
+}
+
+

@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+}
+
+.uno{
+    background-color: rgb(226, 226, 114);
+    width: 200px;
+    height: 150px;
+    position: absolute;
+}
+
+.dos {
+    background-color: rgb(206, 165, 165);
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    left: 200px;
+}
+
+.tres {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    background-color: rgb(104, 72, 48);
+}
+
+.cuatro {
+    width: 700px;
+    height: 100px;
+    background-color: burlywood;
+    position: absolute;
+    top: 550px;
+}
