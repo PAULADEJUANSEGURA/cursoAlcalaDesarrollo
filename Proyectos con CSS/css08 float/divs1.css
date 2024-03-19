@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.green {
+    background-color: greenyellow;
+    width: 250px;
+    height: 1000px;
+    float: left;
+}
+
+.block1 {
+    float: left;
+}
+
+.red {
+    background-color: red;
+    height: 250px;
+    width: 1046px;
+}
+
+.blue {
+    background-color: blue;
+    width: 1046px;
+    height: 750px;  
+}
+
+.block2 {
+    float: right;
+}
+
+.pink {
+    background-color: rgb(252, 32, 222);
+    width: 250px;
+    height: 500px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 250px;
+    height: 500px;
+}
