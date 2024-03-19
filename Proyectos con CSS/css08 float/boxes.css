@@ -1,0 +1,19 @@
+.box{
+    width: 400px;
+    height: 300px;
+    font-size: 20pt;
+}
+
+.one {
+    background-color: aqua;
+    float: left;
+}
+.two {
+    background-color: pink;
+    float: left;
+}
+.three {
+    background-color: orange;
+    clear: left;
+    width: 800px;
+}
