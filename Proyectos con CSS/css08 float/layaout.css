@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .content {
     width: 1800px;
@@ -7,13 +12,33 @@
 header {
     width: 1800px;
     height: 300px;
-    background-color: bisque;
+    background-color: #ffe3c2;
 }
 
 nav {
     width: 1800px;
     height: 50px;
-    background-color: rgb(218, 218, 200);
+    background-color: rgb(218, 218, 200); 
+}
+li {
+    display: inline-block;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: #123d6b;
+    margin-left: 100px;
+    margin-top: 18px;
+    font-size: large;
+    text-decoration: underline;
+}
+
+a {
+    color: #123d6b;
+}
+
+a:hover {
+    color: rgb(250, 130, 100);
+    background-color: white;
+    padding: 5px;
 }
 
 aside{
@@ -33,4 +58,15 @@ footer {
     height: 200px;
     clear: left;
     background-color: rgb(245, 214, 173);
+}
+
+.logo {
+    float: left;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #123d6b;
+    font-weight: 100;
+    margin-top: 100px;
 }
