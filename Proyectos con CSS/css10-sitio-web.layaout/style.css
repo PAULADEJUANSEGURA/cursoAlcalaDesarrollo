@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("background.png");
+    background-size: cover;
+}
+
+header {
+    background-color: #B5C0D0;
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+
+}
+
+#logo {
+    float: left;
+}
+
+#heading1 {
+    float: left;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 18pt;
+    color: white; 
+    position: relative;
+    margin-top: 120px;
+}
+
+nav {
+    background-color: #B5C0D0;
+    height: 100px;
+    width:100%;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 25px;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: #CCD3CA;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 25px;
+    border: 5px solid greenyellow;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    height: 600px;
+}
+
+section {
+    margin: 50px; 
+    width: 60%;
+    background-color: rgba(181, 192, 208, 0.7);
+    }
+
+#paquet {
+    width: 250px;
+    height: 190px;
+    margin: 30px;
+    float: left;
+}
+
+p { 
+    padding: 10px;
+    margin: 10px;
+}
+
+aside {
+    background-color: rgba(248, 124, 93, 0.8);
+    border-color: rgba(248, 124, 93, 0.8);
+    border-width: 15px;
+    border-style: groove;
+    border-radius: 35px;
+    float: right;
+    position: relative;
+    top: -500px;
+    width: 350px;
+    
+}
+
+.paquet2 {
+    width: 320px;
+    height: fit-content;
+    border-radius: 25px;
+    
+}
+
+.paquet3reparto {
+    width: 320px;
+    height: fit-content;
+    border-radius: 25px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 1000px;
+    background-color: #B5C0D0;
+    z-index: 2;
+}
+
+#special-footer {
+    width: 100%;
+    height: 100px;
+    background-color: #B5C0D0;
+}
+
+
+#logo2 {
+    position: absolute;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+div {
+    background-color: #B5C0D0;
+}
+
+#unordered-list{
+    background-color: #B5C0D0;
+}
+
+.footi {
+
+    display: inline-block;
+    margin: 25px;
+    padding: 10px;
+    position: relative;
+    margin-top: 100px;
+}
+
+
+.footi:hover {
+    display: inline;
+    margin: 25px;
+    padding: 10px;
+    background-color: #CCD3CA;
+    border-radius: 25px;
+    border: 5px solid greenyellow;
+}
+
