@@ -56,7 +56,3 @@ li ul {
 li:hover ul{
     display: block;
 }
-
-li:hover ul li {
-    margin: 0;
-}
