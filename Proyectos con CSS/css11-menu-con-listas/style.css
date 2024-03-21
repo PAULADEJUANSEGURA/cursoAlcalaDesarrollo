@@ -25,10 +25,10 @@ ul{
 
 li{
     float: left;
-    margin: 20px;
+    margin-top: 5px;
     height: 100px;
     width: 200px;
-    margin-right: 10px;
+    margin-right: 50px;
     text-align: center;
 }
 
