@@ -5,13 +5,13 @@
 
 header { 
     height: 110px;
-    background-color: rgb(128, 0, 128, 0.5);
+    background-color: purple;
     margin: 0px;
 }
 
 nav {
     padding: 5px;
-    background-color: rgb(128, 0, 128, 0.5);
+    background-color: #FFB38E;
     width: 135px;
     margin-left: -5px;
     margin-top: 0px;
@@ -42,7 +42,7 @@ a {
 }
 
 li:hover {
-    background-color: rgb(247, 211, 217);
+    background-color: #FFFDCB;
     width: 120px;
     height: 50px;
     padding: 5px;
@@ -51,7 +51,7 @@ li:hover {
 
 li ul{ 
     display: none;
-    background-color: rgb(128, 0, 128, 0.5);;
+    background-color: #FFB38E;
     width: 120px;
     z-index: 1;
 }
@@ -67,4 +67,8 @@ li:hover ul{
     top: -4px;
     width: 140px;
     list-style: none;
+}
+body {
+    background-color:#FF8E8F;
+    width: 100%;
 }
