@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "acme";
+    src: url("ACMESecretAgentItalic.ttf");
+}
+
+body{
+    background-image: url("acme-dessert.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+
+h1 {
+    color: blue;
+    font-family: "acme";
+    text-shadow: 4px 4px orange;
+    font-size: 45pt;
+}
+
+h2 {
+    color: blue;
+    font-family: "acme";
+    text-shadow: 4px 4px orange;
+    font-size: 45pt;
+}
+
+p {
+    color: blue;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35pt;
+    text-shadow: 4px 4px orange;
+}
+
+.bungee {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 4px 4px blue;
+}
+
+.honk {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+    font-size: 40pt;
+}
+
+.noto-color {
+    font-family: "Noto Color Emoji", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
