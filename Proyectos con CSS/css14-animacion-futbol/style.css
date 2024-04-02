@@ -18,9 +18,21 @@ body {
 @keyframes moreno {
     0%{
         left: -400px;
+    }
+    25% {
+        left: 200px;
     } 
-    100%{
-        left:1000px;
+    33%{
+        left: 300px;
+    }
+    50%{
+        left: 400px;
+    }
+    75%{
+        left: 900px;
+    }
+    100% {
+        left: 1100px;;
     } 
 }
 
@@ -41,17 +53,48 @@ body {
 
 @keyframes pelota {
     0% {
-        bottom: 100px;
-        left: 100px;
+        bottom: 0px;
+        left: 0px;
        }
-    33% {
-        left: 560px;
+    25% {
+        left: 800px;
         bottom: 600px;
+        transform: scale(0.5, 0.5);
     }
     50% {
-        left: 1050px;
+        left: 1100px;
         bottom: 100px;
+        transform: scale(0.5, 0.5);
     }
+    75% {
+        width: 30px;
+        left: 1450px;
+        bottom: 0px;
+        transform: scale(1, 1);
+    }
+
+    90% {
+        left: 780px;
+    }
+    100% {
+        left: 1250px;
+        bottom: 100px;
+        transform: scale(0.5, 0.5);
+    } 
+}
+
+
+@keyframes rival {
+    from {
+        right: 0px;
+    }
+
+    to{ 
+        right: 190px;
+    }
+
+
+    
 }
 .moreno {
     left: 100px;
@@ -59,15 +102,15 @@ body {
     animation-name: moreno;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    animation-delay: 2;
 }
 
 .rubio {
-    left: -200px;
+    left: -300px;
     bottom: 0px;
     animation-name: rubio;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    animation-delay: 2;
 }
 
 
@@ -75,9 +118,10 @@ body {
 .pelota {
     z-index: 5;
     animation-name: pelota;
-    animation-duration: 9s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
+    animation-direction: alternate;
 }
 
 
@@ -85,4 +129,8 @@ body {
     position: absolute;
     bottom: 0px;
     right: 0px;
+    animation-name: rival;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
 }
