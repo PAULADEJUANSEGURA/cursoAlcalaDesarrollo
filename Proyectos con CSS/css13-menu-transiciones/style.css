@@ -1,0 +1,74 @@
+
+nav {
+        width: 100px;
+        margin: 300px auto;
+        position: relative;
+}
+
+.tapa {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+
+
+.azul {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all 0.3s;
+}
+
+nav:hover .azul {
+    top: -115px;
+    left: -90px;
+}
+
+/* Otra forma de hacerlo:
+    nav:hover .azul {
+        transform: translate(-50px, -125px);
+
+    }
+*/
+
+.verde  {
+    background: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all 0.3s;
+}
+
+nav:hover .verde {
+    top: -115px;
+    left: 90px;
+}
+
+.rojo  {
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all 0.3s;
+}
+
+nav:hover .rojo {
+    top: 135px;
+    left: 0px;
+}
