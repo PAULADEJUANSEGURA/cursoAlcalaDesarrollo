@@ -73,14 +73,21 @@ body {
         transform: scale(1, 1);
     }
 
-    90% {
+    80% {
         left: 780px;
     }
-    100% {
+    90% {
         left: 1250px;
         bottom: 100px;
         transform: scale(0.5, 0.5);
     } 
+    100% {
+        z-index: 0;
+        left: 1700px;
+        bottom: 100px;
+        transform: scale(1, 1);
+
+    }
 }
 
 
