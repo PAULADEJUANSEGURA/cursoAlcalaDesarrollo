@@ -1,0 +1,88 @@
+body {
+    background-image: url("campo.jpg");
+    background-size: cover;
+    background-position: 0 -240px;
+}
+
+.jugadores{
+    width:150px;
+    position: absolute;
+}
+.pelota{
+    width: 30px;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+@keyframes moreno {
+    0%{
+        left: -400px;
+    } 
+    100%{
+        left:1000px;
+    } 
+}
+
+@keyframes rubio {
+    0%{
+        left: -500px;       
+    } 
+
+    25% {
+        left: 0px;
+        bottom: 0px;
+
+    }
+	100%{
+        left:450px;
+    } 
+}
+
+@keyframes pelota {
+    0% {
+        bottom: 100px;
+        left: 100px;
+       }
+    33% {
+        left: 560px;
+        bottom: 600px;
+    }
+    50% {
+        left: 1050px;
+        bottom: 100px;
+    }
+}
+.moreno {
+    left: 100px;
+    bottom: 100px;
+    animation-name: moreno;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.rubio {
+    left: -200px;
+    bottom: 0px;
+    animation-name: rubio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 2;
+}
+
+
+
+.pelota {
+    z-index: 5;
+    animation-name: pelota;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+
+.rival {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
