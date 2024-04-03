@@ -1,0 +1,10 @@
+
+img[alt$="gas"] {
+    border-radius: 100px;
+    filter: drop-shadow(5px 5px);
+    margin: 10px;
+    object-fit: cover;
+    height: 500px;
+    object-position: 1px 5px;
+}
+
